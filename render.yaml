@@ -6,6 +6,4 @@ build:
         wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && \
         tar -xvf ngrok-v3-stable-linux-amd64.tgz && \
         ./ngrok authtoken 2ec4tCn7Ye2DqI7Xwqi3Y9xiiEv_3rYGwymMWVP8M8wTYpjqU && \
-        ./ngrok http 8888 &
-start:
-  cmd: python3 -m notebook --allow-root
+        ./ngrok http 8888 & python3 -m notebook --allow-root
