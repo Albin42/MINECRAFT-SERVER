@@ -4,4 +4,4 @@ services:
       docker build -t my-jupyter-notebook .
     startCommand: |
       docker run -p 8888:8888 my-jupyter-notebook
-      
+    httpPort: 8888
