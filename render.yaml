@@ -1,0 +1,7 @@
+services:
+  - name: jupyter-notebook
+    buildCommand: |
+      docker build -t my-jupyter-notebook .
+    startCommand: |
+      docker run -p 8888:8888 my-jupyter-notebook
+      
