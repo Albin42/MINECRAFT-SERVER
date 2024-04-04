@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Set working directory
-WORKDIR /
+WORKDIR /notebook
 
 # Install Python packages and ngrok
 RUN python3 -m pip install notebook && \
