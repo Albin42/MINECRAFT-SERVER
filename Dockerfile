@@ -17,4 +17,4 @@ RUN ./ngrok authtoken 2ec4tCn7Ye2DqI7Xwqi3Y9xiiEv_3rYGwymMWVP8M8wTYpjqU
 EXPOSE 8888
 
 # Start ngrok to expose port 8888 (Run in the background)
-CMD ./ngrok http 8888 & python3 -m notebook --allow-root
+CMD ./ngrok http 8888 & python3 -m notebook --no-browser --allow-root
