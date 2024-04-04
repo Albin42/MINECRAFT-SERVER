@@ -11,7 +11,7 @@ RUN wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
 RUN tar -xvf ngrok-v3-stable-linux-amd64.tgz
 
 # Set ngrok authtoken (Replace '<your_ngrok_auth_token>' with your actual ngrok authentication token)
-RUN ./ngrok authtoken <your_ngrok_auth_token>
+RUN ./ngrok authtoken 2ec4tCn7Ye2DqI7Xwqi3Y9xiiEv_3rYGwymMWVP8M8wTYpjqU
 
 # Expose port 8888 for Jupyter notebook
 EXPOSE 8888
